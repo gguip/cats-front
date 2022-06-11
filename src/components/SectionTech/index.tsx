@@ -12,7 +12,7 @@ type Props = {
   sectionPet: SectionPetProps
 }
 
-const SectionTech = ({ sectionPet }: Props) => (
+const SectionTech = ({ sectionPet }: any) => (
   <S.Wrapper>
     <Container>
       <Heading reverseColor>{sectionPet.title}</Heading>

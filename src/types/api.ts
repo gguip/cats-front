@@ -35,7 +35,7 @@ export type SectionPetProps = {
       }
     }
   }
-}
+}[]
 
 export type SectionAboutProjectProps = {
   title: string
